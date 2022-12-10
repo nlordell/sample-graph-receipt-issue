@@ -1,0 +1,5 @@
+type Record @entity {
+  id: ID!
+  firstMissingReceipt: Bytes
+  firstNullReceiptField: Bytes
+}
